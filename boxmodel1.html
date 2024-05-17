@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=>, initial-scale=1.0" />
+    <title>boxmodel</title>
+    <style>
+      .main{
+        text-align: center;
+      }
+      .a {
+        margin-left: auto;
+        margin-right: auto;
+        border: 50px solid black;
+        height: 200px;
+        width: 200px;
+        text-align: center;
+      }
+      .b {
+        border: 50px solid lightslategray;
+        text-align: center;
+      }
+      .c {
+        border: 50px solid lightblue;
+        text-align: center;
+      }
+      .d {
+        border: 5px solid lightgray;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main"><h1>CSS Box-Model</h1></div>
+
+    <div class="a">
+      <div class="b">
+        <div class="c">
+          <div class="d"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
